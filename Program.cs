@@ -134,7 +134,7 @@ namespace Certamen2
 
                 for (int i = 0; i < n.Length; i++)
                 {
-                    if (op <= n[i])
+                    if (op < n[i])
                     {
                         Console.Write("| {0} |", n[i]);
                     }
